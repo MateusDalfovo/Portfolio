@@ -104,7 +104,7 @@ li.right .textRs { display:none; }
     width:100%;
     text-align: center;
     background-color: #000000;
-    transition: 0.45s;
+    transition: 0.35s;
 
 }
 
@@ -193,10 +193,40 @@ i{
 
 #botao {
   font-family: century;
+  position: relative;
+}
+
+#botaoT {
+  font-family: century;
+  position: relative;
+}
+
+#materias{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+#manun{
+  font-size: 40px;
+  font-weight: bolder;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+#volte{
+  font-size: 20px;
+  font-weight: bolder;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-evenly; 
 }
 
 button {
-
   background-color: #aeaeae;
   display: inline-block;
   width: 125px;
@@ -276,7 +306,6 @@ border: #000000 solid 4px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  position: relative;
   margin-block-end: 10px;
 
 border: #000000 solid 4px;
@@ -330,22 +359,21 @@ border: #000000 solid 4px;
 }
 
 .terceiro{
-  background-color: #b8cccb;
+  background-color: #838383;
 }
 
 .principal{
-  background-color: rgb(224, 250, 255);
+  background-color: rgb(155, 169, 172);
 }
 
-a {
+a{
   text-decoration: none;
   font-family: century;
-  color: aqua;
+  color:rgb(255, 255, 255);
+  font-weight: 400;
 }
 
-a:visited{
-  color: red;
-}
+
 
 .crono img{
   position: relative;
@@ -367,20 +395,25 @@ a:visited{
 /*Card Animado*/
 
 .apresentacao, .geral{
-  margin-top: 50px;
-  margin-left: 21px;
+  top: 5%;
+  margin-top: 5%;
+  margin-left: 4%;
   width: 90%;
-  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #222;
+  align-items: center;
+
+  position: absolute;
+
 }
 
 .wrapper{
   display: flex;
-  width: 70%;
+  width: 50%;
   justify-content: space-around;
+  top: 50%;
 }
 
 .card{
@@ -389,16 +422,18 @@ a:visited{
   background: #000000;
   position:relative;
   display: flex;
-  align-items: flex-end;
   box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
   transition: 0.5s ease-in-out;
-  margin-left: 20px;
-  margin-right: 50px;
-  padding-right: 70px;
-  padding-top: 80px;
-  padding-left: 70px;
-  padding-bottom: 70px;
-  
+
+  margin-left: 2%;
+  margin-right: 8%; 
+
+  padding-right: 7%;
+  padding-top: 8%;
+
+  padding-left: 6%;
+  padding-bottom: 8%;
+
 }
 
 
@@ -472,10 +507,132 @@ a:visited{
   margin-bottom: 20px;
 }
 
+.sep{
+  text-decoration: underline ;
+  margin-top: 60px;
+
+}
+
 .sobre{
   font-family: century;
   text-align: center;
   border-radius: 8px;
-  border: #000000 solid 4px;
+ 
 }
 
+#hab{
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+  
+
+}
+
+.all_habilidades{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#habilidades1{
+  width: 15%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgb(135, 132, 132);
+  
+  margin-top: 2%;
+  border: #000000 solid 4px;
+
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+
+}
+
+#habilidades2{
+  width: 15%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgb(135, 132, 132);
+
+  margin-top: 2%;
+  border: #000000 solid 4px;
+
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+
+}
+
+
+
+#habilidades4{
+  width: 15%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgb(135, 132, 132);
+
+  margin-top: 2%;
+  border: #000000 solid 4px;
+
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+
+}
+
+#habilidades5{
+  width: 15%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgb(135, 132, 132);
+
+  margin-top: 2%;
+  border: #000000 solid 4px;
+
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+
+}
+
+
+#habilidades6{
+  width: 15%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgb(135, 132, 132);
+
+  margin-top: 2%;
+  border: #000000 solid 4px;
+
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+
+}
+
+#habilidades7{
+  width: 15%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgb(135, 132, 132);
+
+  margin-top: 2%;
+  border: #000000 solid 4px;
+
+  box-shadow: inset 0 0 10px 9px #9ba9ac;
+
+}
+
+#imgs{
+  width: 10px;
+  height: 10px;
+  border: #000000 solid 4px;
+
+}
+
+#text_hab{
+font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
